@@ -13,7 +13,7 @@ function startTimer() {
       timer--; // decrease timer by 1 second
       document.getElementById("timer").innerHTML = timer; // update timer on the webpage
     }
-  }, 1000);
+  }, 2000);
 }
 
 startTimer(); // start the timer
