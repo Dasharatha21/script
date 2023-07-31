@@ -1,0 +1,64 @@
+  .app-containers {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.app-name {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.app-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-icons img {
+  width: 100px; /* Adjust the size of the app icon as needed */
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.app-details {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.install-button {
+  display: block;
+  max-width: 500px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.install-button:hover {
+  background-color: #45a049;
+}
+
+.install-button:active {
+  background-color: #3e8e41;
+}
+
+  /* CSS for the table and table cells */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc; /* Border around the whole table */
+  }
+
+  td {
+    padding: 8px;
+    border: 1px solid #ccc; /* Border around each table cell */
+  }
